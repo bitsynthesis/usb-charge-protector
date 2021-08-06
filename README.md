@@ -18,6 +18,17 @@ Back
 ![UCP PCB](/images/ucp-in-use.jpg)\
 In use
 
+# DEFCON 29 Assembly Notes
+
+The power indicator LED is not essential, but needs to be properly oriented to function. When looking at the back of the board as outlined below, put the LED in the top location with the green side (cathode) pointing to the right.
+```
+| \_
+|
+|  _
+| /
+```
+Or just look up the pinout on the USB jacks to determine which pin is power and which is ground :)
+
 # License
 
 Copyright Ben Baker-Smith 2019.
